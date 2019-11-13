@@ -1,0 +1,6 @@
+# CSV Files for testing
+*.csv
+
+# Other
+test.js
+*.old.js
