@@ -1,5 +1,5 @@
 {
-  "name": "csv-parser",
+  "name": "@uelstudios/simple-csv-parser",
   "version": "1.0.0",
   "description": "Parse csv data",
   "main": "index.js",
