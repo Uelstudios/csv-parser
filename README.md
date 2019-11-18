@@ -9,17 +9,17 @@ npm install @uelstudios/csv-parser
 
 In your code
 
-`
+```
 const csvParser = require("@uelstudios/csv-parser");
 const rows = csvParser.parse(<CSV DATA>);
 
 // Row: 2 (thrid row)<br/>
 // Column: 3 (fourth column)<br/>
 console.log(rows[2][3]);
-`
+```
 
 ## Example
-`
+```
 // Read file and print to console\
 const fs = require("fs");\
 const csvParser = require("@uelstudios/csv-parser");
@@ -35,7 +35,7 @@ rows.forEach(row => logRow(row));
 function logRow(row) {
     console.log(row.join("\t\t"));
 }
-`
+```
 
 ## Supported Types
 - string
@@ -51,6 +51,7 @@ function logRow(row) {
 Paul von Allwörden
 
 ### License
+```
 Version 2, December 2004
 
 Copyright (C) 2004 Sam Hocevar
@@ -61,3 +62,4 @@ DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
 TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
 1. You just DO WHAT THE FUCK YOU WANT TO.
+```
